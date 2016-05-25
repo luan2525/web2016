@@ -2,7 +2,6 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -24,6 +23,12 @@ public class GravarCookie extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet GravarCookie</title>");
             out.println("</head>");
+            
+            
+            out.println("<form>");
+            
+            
+            out.println("</form>");
             out.println("<body>");
 
             out.println("<form method=\"post\">");
