@@ -29,6 +29,8 @@ public class GravarCookie extends HttpServlet {
             
             
             out.println("</form>");
+            
+            
             out.println("<body>");
 
             out.println("<form method=\"post\">");
